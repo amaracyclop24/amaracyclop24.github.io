@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>nyx.</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("what should I call you?");
+    
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("Hi " + Name + ", always remember that im yours and you're mine."); 
+    alert("today is another day of remembrance, the day you asked me to be your girlfriend ")
+    alert("kung naaala mo ako yung una nagconfess sayo haha")
+    alert("and it was the best decision that I've ever made in my entire life")
+    alert("to the most amazing man who has given me the most spectacular life")
+    alert("i am excited about our future together.")
+    alert("happy 1st month, my man")
+    alert("ayoko na pahabain to basta mahal na mahal kita")
+    alert("nyeta hirap magcoding, ali")
+    alert("hihi perks of having an IT girlfriend, idadaan ka sa codings")
+    alert("i love you, mwamwa ka sakin")
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> hi baby! mahal mo ba ako?</h1>
+<img src="https://media.tenor.com/KLD_fu5EUIkAAAAj/sad-anime.gif" height="200" />
+<h1 style="#">click "no" for an answer </h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YES " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" NO " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
